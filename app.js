@@ -5,7 +5,12 @@ const list = document.querySelector('.list');
 form.addEventListener("submit", function (event) {
     event.preventDefault();
     if (input.value == "") {
-        return false;
+        const error = document.querySelector('.error');
+        error.style.display = 'flex';
+
+        setTimeout(function () {
+            error.style.display = 'none';
+        }, 3000)
     }
 
     /* Create li*/

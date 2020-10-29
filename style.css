@@ -153,6 +153,14 @@ i{
     color:#000;
 }
 
+.error{
+    background: rgb(218, 27, 27);
+    height: 3rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
 .done{
     text-decoration: line-through;
     color: gray;
